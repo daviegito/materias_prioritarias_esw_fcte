@@ -1,6 +1,7 @@
 #Testes para a classe estudante
 import pytest
-from src.atividade_livre import Estudante
+from src.database.materias import materias, Materia, MateriaBase, MateriaSemPreRequisito
+from src.estudante.classe_estudante import Estudante
 
 def test_estudante_sucesso():
   estudante = Estudante("Davi", "200000000", "c1")

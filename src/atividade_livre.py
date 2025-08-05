@@ -1,5 +1,3 @@
-from abc import ABC, abstractmethod
-from materia.classe_materia import Materia, MateriaBase, MateriaSemPreRequisito
 from estudante.classe_estudante import Estudante
 from menu.menus import menu_materias, mostrar_menu 
 from database.materias import materias
@@ -18,7 +16,7 @@ def main():
             if novo_estudante:
                 novo_estudante.listar_materias_cadastradas(materias)
             else:
-                print("\nNenhum estudante e nem matéria cadastrados ainda")
+                print("\nNenhum estudante e nem matéria cadastrados ainda\n")
         elif opcao == "3":
             filepath = input("Digite o caminho do arquivo para carregar os dados: ")
             #se tiver um novo estudante

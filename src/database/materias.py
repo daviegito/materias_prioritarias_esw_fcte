@@ -1,5 +1,5 @@
-from materia.classe_materia import Materia, MateriaBase, MateriaSemPreRequisito
-import json
+from materia.classe_materia import Materia, MateriaSemPreRequisito
+
 
 materias = {
     #No momento, o usuário terá de digitar "c1", "apc" e afins sem as aspas.

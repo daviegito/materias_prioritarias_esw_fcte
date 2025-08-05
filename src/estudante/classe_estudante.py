@@ -1,5 +1,4 @@
-from materia.classe_materia import Materia, MateriaBase, MateriaSemPreRequisito
-from database.materias import materias
+from materia.classe_materia import Materia
 import json
 
 
